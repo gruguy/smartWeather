@@ -1,0 +1,48 @@
+.weather {
+  font-family: 'microsoft yahei';
+  width: 400px;
+  height: 600px;
+  position: relative;
+  color: #fff;
+  background-color: #38f; }
+  .weather .tIcons {
+    text-align: right; }
+    .weather .tIcons img {
+      width: 2.5rem;
+      margin: 2rem; }
+  .weather .tempN {
+    position: relative;
+    text-align: center;
+    font-size: 8rem; }
+    .weather .tempN:after {
+      content: 'o';
+      font-size: 3rem;
+      position: absolute;
+      top: 0; }
+  .weather .city {
+    text-align: center;
+    font-size: 1.4rem; }
+  .weather .future {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    .weather .future .row {
+      position: relative;
+      height: 3rem;
+      padding: 0 2rem;
+      border-bottom: solid 1px #fff; }
+      .weather .future .row span {
+        display: inline-block;
+        position: absolute;
+        bottom: 4px; }
+      .weather .future .row .week {
+        left: 1.5rem; }
+      .weather .future .row .tempS, .weather .future .row .iconS {
+        right: 1.5rem; }
+      .weather .future .row .tempS {
+        right: 5rem; }
+      .weather .future .row .iconS img {
+        width: 1.5rem;
+        vertical-align: bottom; }
+
+/*# sourceMappingURL=smartWeather.css.map */
